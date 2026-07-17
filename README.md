@@ -1,5 +1,7 @@
 # Deliberon
 
+![Deliberon — assemble the AI council you can't afford to hire](./assets/og-card.png)
+
 **Multi-Agent AI Deliberation Council for Windows**
 
 > *This is Intelligence. Orchestrated Intelligently.*
