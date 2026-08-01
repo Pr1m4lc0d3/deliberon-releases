@@ -120,7 +120,7 @@ Want decisions with a paper trail? Every Deliberon session produces a signed Dec
 
 They are browsable and purchasable **inside Deliberon**: a tab in the Hall of Agents opens the **Symbiosis Map**, a hoverable wheel of all forty vocations, alongside **The Forty** organised by domain and a **Collections** view for domain packs, outcome tracks and the Full Canon. The marketplace renders with no network connection at all, and checkout always opens in your real browser.
 
-Specialists are sold separately from **$19** each, with domain packs, outcome tracks and a discounted Full Canon. Every tier — including Free — can hire them.
+Specialists are sold separately from **$19** each, with domain packs, outcome tracks and a discounted Full Canon. **CODE·A.I. requires a Standard licence or above** — a purchased specialist does not run on the Free tier.
 
 **→ [Meet the forty](https://www.deliberon.com/code-ai)**
 
@@ -133,7 +133,7 @@ Deliberon is a **one-time purchase**. Buy it once and own it — no subscription
 | Tier | Price | What it adds |
 |------|-------|--------------|
 | **[Free](https://www.deliberon.com/download)** | **$0** — no account, no card, no expiry | Always-live Chairman, 3 council agents, 5 council modes, full Decision Records, cryptographic session signing, bring your own AI, voice input |
-| **[Standard](https://www.deliberon.com/pricing)** | **$79** one-time | 6 council agents, 10 modes, Round Table, INTEGRA alignment, reusable Teams & Loadouts, themes, and the Community Gallery |
+| **[Standard](https://www.deliberon.com/pricing)** | **$79** one-time | 6 council agents, 10 modes, Round Table, INTEGRA alignment, reusable Teams & Loadouts, themes, the Community Gallery, and **access to the CODE·A.I. specialists** (à la carte) |
 | **[Pro](https://www.deliberon.com/pricing)** | **$149** one-time | 10 council agents, 18 modes, Podcast & Interview, the **Agent Designer**, the Agent Recruiter, agent vaults & memory tiers, document generation, per-agent voices and audio export |
 | **[Elite](https://www.deliberon.com/pricing)** | **$249** one-time | All 15 council agents, all 28 modes including the **Hegelian Dialectic**, Research Mode, and plugin agents |
 
