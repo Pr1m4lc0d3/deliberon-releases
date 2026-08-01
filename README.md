@@ -20,7 +20,7 @@ Single-AI responses are designed to sound confident and agreeable. They hallucin
 
 Deliberon convenes a **structured council of specialised AI agents** to deliberate on your question. Each agent has a defined role, a distinct reasoning profile, and the mandate to challenge — not just agree. Agents read each other's arguments, push back with evidence, and a dedicated Critic attacks the council's own emerging consensus.
 
-The result is a formal **Decision Record**: the strongest arguments for and against, dissenting views preserved, and a traceable final recommendation.
+The result is a formal **Decision Record**: the strongest arguments for and against, dissenting views preserved, a traceable final recommendation, and the cryptographic proof that it is the record the council actually produced.
 
 ---
 
@@ -31,7 +31,7 @@ The result is a formal **Decision Record**: the strongest arguments for and agai
 3. **Sycophancy is detected and blocked** — agents cannot simply agree; they must justify with evidence
 4. **Minority dissent is protected** — the Gemini Principle prevents valid minority positions from being suppressed by consensus pressure
 5. **The Critic attacks** — a dedicated adversarial agent challenges the council's emerging recommendation
-6. **You receive a Decision Record** — a structured, exportable Markdown document with full deliberation history
+6. **You receive a Decision Record** — a structured document with the full deliberation history, exportable to Markdown, HTML or PDF
 
 ---
 
@@ -60,16 +60,18 @@ And it gives every agent a face and a voice:
 
 ## Key Features
 
-- **27 built-in Council Modes** (plugins can register more) — across decision-making (Feasibility Study, Jury Verdict, Tradeoff Analysis, Consensus Review), engineering (Architecture Review, Scope Trim, QC Gate, Sprint Planning), analysis (Red Team, Assumption Audit, Root Cause Analysis, Knowledge Audit), creative (Brainstorm, Critique, The Pitch), governance (Proposal Vote, Mediation, Vision Check), and documentation (Document Assembly, Research Synthesis)
-- **Hegelian Dialectic mode** — a three-round Thesis → Antithesis → Synthesis structure for high-stakes truth-seeking, with the Adversary leading a dedicated challenge round
+- **Guided first run** — a fresh install opens into a one-time walkthrough: the mind that thinks, the voice that speaks, your first convention, and your agent roster. Every new agent gets its own short setup wizard too
+- **The Cognition Matrix** — one screen for provider setup, *The Mind* above *The Voice*, with a My Voice clone studio: type a sentence and hear it in your own voice
+- **[28 built-in Council Modes](https://www.deliberon.com/modes)** (plugins can register more) — across decision-making (Feasibility Study, Jury Verdict, Tradeoff Analysis, Consensus Review), engineering (Architecture Review, Scope Trim, QC Gate, Sprint Planning), analysis (Red Team, Assumption Audit, Root Cause Analysis, Knowledge Audit), creative (Brainstorm, Critique, The Pitch), governance (Proposal Vote, Mediation, Vision Check), and documentation (Document Assembly, Research Synthesis)
+- **[Hegelian Dialectic mode](https://www.deliberon.com/modes)** — a three-round Thesis → Antithesis → Synthesis structure for high-stakes truth-seeking, with the Adversary leading a dedicated challenge round
 - **Conversational modes** — Round Table, Podcast, and Interview turn the council into a listenable, voiced discussion rather than a verdict engine
-- **Council Attestation** — every session produces a cryptographically signed (per-seat ECDSA P-256) attestation package; the gold 🔐 badge deposits a verifiable session record you can export as JSON or Markdown
-- **The Agent Designer** — build, voice, and deploy fully custom council agents (see above)
+- **Decision Records** — every session produces one interactive document holding both the result and its cryptographically signed (per-seat ECDSA P-256) proof, exportable to Markdown, HTML or PDF
+- **[The Agent Designer](https://www.deliberon.com/agent-designer)** — build, voice, and deploy fully custom council agents (see above)
 - **Native local models** — browse and download GGUF models directly from Hugging Face *inside* Deliberon, then run them locally — no separate tooling required
 - **The Library** — a built-in knowledge system that grounds agents in your own source material
 - **Project-scoped conventions** — sessions and agent rosters are linked to projects, with full history and Decision Record export; agents never bleed between projects
 - **MCP Server** — AI orchestrators (Claude Code and compatible tools) can drive Deliberon programmatically via 200+ tools
-- **Provider Agnostic** — each agent can use a different AI provider; mix cloud and local freely
+- **[Provider agnostic](https://www.deliberon.com/providers)** — each agent can use a different AI provider; mix cloud and local freely
 
 ---
 
@@ -83,9 +85,13 @@ Each specialist in the council can be independently configured:
 | **OpenAI-compatible APIs** | Cloud — any provider with an OpenAI-compatible endpoint |
 | **Ollama** | Local — any model you have pulled |
 | **LM Studio** | Local — any loaded model |
+| **DeepSeek** | Cloud — including the current V4 models |
+| **Groq** | Cloud |
+| **Mistral** | Cloud |
+| **OpenRouter** | Cloud — one key, many models |
 | **Hugging Face (GGUF)** | Local — search and download models in-app, then run them locally |
 
-Additional cloud endpoints, including Google Gemini, are supported. No lock-in — use the best model for each role.
+No lock-in — use the best model for each role, and mix cloud and local freely across the council. **[Full provider detail →](https://www.deliberon.com/providers)**
 
 ---
 
@@ -108,6 +114,23 @@ Want decisions with a paper trail? Every Deliberon session produces a signed Dec
 
 ---
 
+## Pricing & Licensing
+
+Deliberon is a **one-time purchase**. Buy it once and own it — no subscription, no seat fees, no expiry.
+
+| Tier | Price | What it adds |
+|------|-------|--------------|
+| **[Free](https://www.deliberon.com/download)** | **$0** — no account, no card, no expiry | Always-live Chairman, 3 council agents, 5 council modes, full Decision Records, cryptographic session signing, bring your own AI, voice input |
+| **[Standard](https://www.deliberon.com/pricing)** | **$79** one-time | 6 council agents, 10 modes, Round Table, INTEGRA alignment, reusable Teams & Loadouts, themes, and the Community Gallery |
+| **[Pro](https://www.deliberon.com/pricing)** | **$149** one-time | 10 council agents, 18 modes, Podcast & Interview, the **Agent Designer**, the Agent Recruiter, agent vaults & memory tiers, document generation, per-agent voices and audio export |
+| **[Elite](https://www.deliberon.com/pricing)** | **$249** one-time | All 15 council agents, all 28 modes including the **Hegelian Dialectic**, Research Mode, and plugin agents |
+
+**A 30-day Elite trial is included, no card and no account required.** It grants full Elite for 30 days — every council agent and every council mode — with two honest limits: the **Agent Designer is capped at 5 agents**, and those agents are yours to keep forever; and the **Community Gallery is for licensed users**, so it is not part of the trial. When the trial ends you drop to Free, and anything you built stays working.
+
+**[See the full pricing breakdown →](https://www.deliberon.com/pricing)**
+
+---
+
 ## System Requirements
 
 - Windows 10 or Windows 11 (64-bit)
@@ -118,8 +141,8 @@ Want decisions with a paper trail? Every Deliberon session produces a signed Dec
 
 ## Installation
 
-1. Download the latest installer from the [Releases](https://github.com/Pr1m4lc0d3/deliberon-releases/releases) page
-2. Run `Deliberon_Setup_v1.*.exe`
+1. Download the latest installer from the [Releases](https://github.com/Pr1m4lc0d3/deliberon-releases/releases) page, or from **[deliberon.com/download](https://www.deliberon.com/download)**
+2. Run `Deliberon-Setup.exe`
 3. Follow the setup wizard (installs .NET 8 automatically if not present)
 4. Launch Deliberon and configure your first AI provider
 
@@ -134,15 +157,31 @@ All releases are published on the [Releases](https://github.com/Pr1m4lc0d3/delib
 
 ---
 
-## Coming Soon
+## CODE·A.I. — forty vocational specialists
 
-A library of professional vocational specialist plugins — **CODEA.I.** — will be made available soon.
+**CODE·A.I.** is a corpus of forty professional vocational specialists, each built conscience-first with its own sourced library, voice and portrait — from the Coder and the Apothecary to the Writer, the Counselor and the Herald.
+
+They are browsable and purchasable **inside Deliberon**: a tab in the Hall of Agents opens the **Symbiosis Map**, a hoverable wheel of all forty vocations, alongside **The Forty** organised by domain and a **Collections** view for domain packs, outcome tracks and the Full Canon. The marketplace renders with no network connection at all, and checkout always opens in your real browser.
+
+Specialists are sold separately from **$19** each, with domain packs, outcome tracks and a discounted Full Canon. Every tier — including Free — can hire them.
+
+**→ [Meet the forty](https://www.deliberon.com/code-ai)**
 
 ---
 
 ## About
 
-Deliberon is a solo developer project in active development. The current release targets Windows and supports all major cloud and local AI providers.
+Deliberon is a solo developer project. The current release targets Windows and supports all major cloud and local AI providers.
+
+- **Website** — [deliberon.com](https://www.deliberon.com)
+- **How it works** — [deliberon.com/how-it-works](https://www.deliberon.com/how-it-works)
+- **Council modes** — [deliberon.com/modes](https://www.deliberon.com/modes)
+- **The Agent Designer** — [deliberon.com/agent-designer](https://www.deliberon.com/agent-designer)
+- **CODE·A.I. specialists** — [deliberon.com/code-ai](https://www.deliberon.com/code-ai)
+- **INTEGRA alignment** — [deliberon.com/integra](https://www.deliberon.com/integra)
+- **Pricing** — [deliberon.com/pricing](https://www.deliberon.com/pricing)
+- **Support** — [deliberon.com/support](https://www.deliberon.com/support)
+- **Privacy** — [deliberon.com/privacy](https://www.deliberon.com/privacy)
 
 Feedback and bug reports are welcome.
 
