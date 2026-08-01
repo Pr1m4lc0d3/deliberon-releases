@@ -79,17 +79,13 @@ And it gives every agent a face and a voice:
 
 Each specialist in the council can be independently configured:
 
-| Provider | Notes |
-|----------|-------|
-| **Claude** (Anthropic) | Cloud — all models supported |
-| **OpenAI-compatible APIs** | Cloud — any provider with an OpenAI-compatible endpoint |
-| **Ollama** | Local — any model you have pulled |
-| **LM Studio** | Local — any loaded model |
-| **DeepSeek** | Cloud — including the current V4 models |
-| **Groq** | Cloud |
-| **Mistral** | Cloud |
-| **OpenRouter** | Cloud — one key, many models |
-| **Hugging Face (GGUF)** | Local — search and download models in-app, then run them locally |
+| Family | Providers |
+|--------|-----------|
+| **Cloud** | Claude (Anthropic), OpenAI, **Google Gemini**, **Grok (xAI)**, DeepSeek, Mistral, Groq, Cerebras, Together, Fireworks, NVIDIA, MiniMax, OpenRouter, Hugging Face, AIMLAPI |
+| **Local** | Ollama, LM Studio, Jan, GPT4All, LocalAI, Oobabooga, any local OpenAI-compatible server, and GGUF models downloaded in-app |
+| **Terminal agents** | Claude Code, Codex and Agent Zero sit in the council as full participants, with the same deliberation rights as any specialist |
+
+**25 providers in total.** Any OpenAI-compatible endpoint works even if it is not named above.
 
 No lock-in — use the best model for each role, and mix cloud and local freely across the council. **[Full provider detail →](https://www.deliberon.com/providers)**
 
