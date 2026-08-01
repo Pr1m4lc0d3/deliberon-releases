@@ -120,7 +120,7 @@ Want decisions with a paper trail? Every Deliberon session produces a signed Dec
 
 They are browsable and purchasable **inside Deliberon**: a tab in the Hall of Agents opens the **Symbiosis Map**, a hoverable wheel of all forty vocations, alongside **The Forty** organised by domain and a **Collections** view for domain packs, outcome tracks and the Full Canon. The marketplace renders with no network connection at all, and checkout always opens in your real browser.
 
-Specialists are sold separately from **$19** each, with domain packs, outcome tracks and a discounted Full Canon. **CODE·A.I. requires a Standard licence or above** — a purchased specialist does not run on the Free tier.
+**Every specialist is a separate purchase, from $19** — individually, in domain packs, in outcome tracks, or as the discounted Full Canon. **They are never bundled with a Deliberon licence, at any tier.** A licence of **Standard or above** is required to *run* one; it does not include one.
 
 **→ [Meet the forty](https://www.deliberon.com/code-ai)**
 
@@ -133,9 +133,11 @@ Deliberon is a **one-time purchase**. Buy it once and own it — no subscription
 | Tier | Price | What it adds |
 |------|-------|--------------|
 | **[Free](https://www.deliberon.com/download)** | **$0** — no account, no card, no expiry | Always-live Chairman, 3 council agents, 5 council modes, full Decision Records, cryptographic session signing, bring your own AI, voice input |
-| **[Standard](https://www.deliberon.com/pricing)** | **$79** one-time | 6 council agents, 10 modes, Round Table, INTEGRA alignment, reusable Teams & Loadouts, themes, the Community Gallery, and **access to the CODE·A.I. specialists** (à la carte) |
+| **[Standard](https://www.deliberon.com/pricing)** | **$79** one-time | 6 council agents, 10 modes, Round Table, INTEGRA alignment, reusable Teams & Loadouts, themes, the Community Gallery, and **the ability to run CODE·A.I. specialists** (each bought separately) |
 | **[Pro](https://www.deliberon.com/pricing)** | **$149** one-time | 10 council agents, 18 modes, Podcast & Interview, the **Agent Designer**, the Agent Recruiter, agent vaults & memory tiers, document generation, per-agent voices and audio export |
-| **[Elite](https://www.deliberon.com/pricing)** | **$249** one-time | All 15 council agents, all 28 modes including the **Hegelian Dialectic**, Research Mode, and plugin agents |
+| **[Elite](https://www.deliberon.com/pricing)** | **$249** one-time | All 15 council agents, all 28 modes including the **Hegelian Dialectic**, Research Mode, and the ability to run plugin agents |
+
+> **The CODE·A.I. specialists are not included in any tier.** No licence — Standard, Pro or Elite — bundles them. Each specialist, pack, track or the Full Canon is a **separate purchase**, from $19. A licence of Standard or above is what makes a purchased specialist *run*; it never grants you one.
 
 **A 30-day Elite trial is included, no card and no account required.** It grants full Elite for 30 days — every council agent and every council mode — with two honest limits: the **Agent Designer is capped at 5 agents**, and those agents are yours to keep forever; and the **Community Gallery is for licensed users**, so it is not part of the trial. When the trial ends you drop to Free, and anything you built stays working.
 
