@@ -114,6 +114,18 @@ Want decisions with a paper trail? Every Deliberon session produces a signed Dec
 
 ---
 
+## CODE·A.I. — forty vocational specialists
+
+**CODE·A.I.** is a corpus of forty professional vocational specialists, each built conscience-first with its own sourced library, voice and portrait — from the Coder and the Apothecary to the Writer, the Counselor and the Herald.
+
+They are browsable and purchasable **inside Deliberon**: a tab in the Hall of Agents opens the **Symbiosis Map**, a hoverable wheel of all forty vocations, alongside **The Forty** organised by domain and a **Collections** view for domain packs, outcome tracks and the Full Canon. The marketplace renders with no network connection at all, and checkout always opens in your real browser.
+
+Specialists are sold separately from **$19** each, with domain packs, outcome tracks and a discounted Full Canon. Every tier — including Free — can hire them.
+
+**→ [Meet the forty](https://www.deliberon.com/code-ai)**
+
+---
+
 ## Pricing & Licensing
 
 Deliberon is a **one-time purchase**. Buy it once and own it — no subscription, no seat fees, no expiry.
@@ -154,18 +166,6 @@ All releases are published on the [Releases](https://github.com/Pr1m4lc0d3/delib
 - A standalone Windows installer (`.exe`)
 - A zipped copy of the installer (`.zip`)
 - Full version notes describing what changed
-
----
-
-## CODE·A.I. — forty vocational specialists
-
-**CODE·A.I.** is a corpus of forty professional vocational specialists, each built conscience-first with its own sourced library, voice and portrait — from the Coder and the Apothecary to the Writer, the Counselor and the Herald.
-
-They are browsable and purchasable **inside Deliberon**: a tab in the Hall of Agents opens the **Symbiosis Map**, a hoverable wheel of all forty vocations, alongside **The Forty** organised by domain and a **Collections** view for domain packs, outcome tracks and the Full Canon. The marketplace renders with no network connection at all, and checkout always opens in your real browser.
-
-Specialists are sold separately from **$19** each, with domain packs, outcome tracks and a discounted Full Canon. Every tier — including Free — can hire them.
-
-**→ [Meet the forty](https://www.deliberon.com/code-ai)**
 
 ---
 
