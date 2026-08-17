@@ -8,6 +8,17 @@
 
 ---
 
+## A one-click Windows app, not a developer project
+
+**Deliberon is a finished Windows desktop application.** Download the installer, run it, and it is ready to use. There is no Python, no pip, no Docker, and no source code to assemble. It is a product you install, not a framework you build.
+
+- **Get it:** [deliberon.com/download](https://www.deliberon.com/download) or the [Releases](https://github.com/Pr1m4lc0d3/deliberon-releases/releases) page, then run `Deliberon-Setup.exe`.
+- **Runs on:** Windows 10 or 11 (64-bit). The .NET 8 runtime is bundled in the installer, so there is nothing else to install.
+- **Free to start:** no account, no card, no expiry.
+- **Bring your own AI:** any cloud model or any local model (Ollama, LM Studio, GGUF). Your keys, on your machine.
+
+---
+
 ## The Problem With Single-AI Responses
 
 Single-AI responses are designed to sound confident and agreeable. They hallucinate. They tell you what you want to hear. They collapse under serious cross-examination. When the stakes are real — a business decision, a product strategy, a market analysis, a strategic pivot — one confident AI answer is not enough.
