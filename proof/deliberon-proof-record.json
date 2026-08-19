@@ -1,0 +1,77 @@
+{
+  "sessionId": "bb4aa8570b35457fa6eb31f70d411767",
+  "generatedAt": "2026-08-15T20:59:42.7868815Z",
+  "algorithm": "ECDSA P-256 / SHA-256",
+  "attestationLevel": "identity_disjoint",
+  "attestationNote": "Proves distinct signers per seat and immutable response text. Does not prove channel_disjoint (independent substrates) — that requires provider-signed inference receipts, which are not yet industry-standard. apiEndpoint is operator-asserted and signed; it cannot be altered post-hoc without invalidating the seat signature.",
+  "singleProvider": null,
+  "verificationNote": "Payload per response: '{sessionId}|{round}|{agentId}|{provider}|{apiEndpoint}|{prevHash}|{text}' (UTF-8). prevHash: SHA-256 of prior response text (base64), empty string for first response. Verify signature against the seat's publicKey (SubjectPublicKeyInfo, base64).",
+  "completeness": {
+    "complete": true,
+    "requestedMemberRounds": 1,
+    "executedMemberRounds": 1,
+    "requestedSynthesisPasses": 0,
+    "executedSynthesisPasses": 0,
+    "summary": "1 of 1 member round attested",
+    "gaps": []
+  },
+  "gaps": null,
+  "seats": [
+    {
+      "agentId": "custom-specialist-sun-tzu",
+      "provider": "DeepSeek",
+      "apiEndpoint": "DeepSeek",
+      "publicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE2zQi+yJwKfnbntkF9WbtMnZOo6ftkzPwtWQXYb8EcYXId8cWkIijKVoz9ccgMD9M3GauonPI6atZ5WkHtaI7iQ=="
+    },
+    {
+      "agentId": "codeai-engineer",
+      "provider": "Gemini",
+      "apiEndpoint": "Gemini",
+      "publicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAErAcSKS7JEvoqIGpCWLzuH7BAbBTp5TG26rRsT7ief+XgLG6iUsa6mmB2Z61nYppB9TLsi1YZr0zSjHTiRLTmIQ=="
+    },
+    {
+      "agentId": "codeai-coder",
+      "provider": "Codex",
+      "apiEndpoint": "Codex",
+      "publicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEVDD/gahKezZZ0+LOeMqPl3wgxAoE7fT9+kUanr382j/zY/tmv0emEjiNW9BMspOKmFXNgXQ6+WNFoQL+nnUEHw=="
+    }
+  ],
+  "rounds": [
+    {
+      "segment": 1,
+      "round": 1,
+      "responses": [
+        {
+          "seat": "custom-specialist-sun-tzu",
+          "provider": "DeepSeek",
+          "prevHash": "",
+          "text": "RANK: SUBAGENTS, CONTEXT COMPACTION, HOOKS, PLAN MODE / TODO, MCP CLIENT  \nBUILD FIRST: SUBAGENTS  \nDO NOT BUILD: MCP CLIENT — the council is your differentiator; acting as a client to third-party tools adds maintenance, security surface, and vendor coupling that a solo developer cannot sustain, and your rivals already own that ground. PLAN MODE / TODO — it is a visible process feature that rivals ship with polish you cannot match; it wins no customer who is not already persuaded by the council.",
+          "signature": "1MW+Pg7cB3URuQ5waQNd51GQ8Ino77V8fMMMkTfB+e55kdJlMIqJ2DIH+EREpgR0Q5y8eSsvh+hM0zVgAhwEIQ=="
+        },
+        {
+          "seat": "codeai-engineer",
+          "provider": "Gemini",
+          "prevHash": "BbB3YlC4Nnnbu+o0njiKnKFHBP7J/zquHfd55ZGReQI=",
+          "text": "RANK: CONTEXT COMPACTION, PLAN MODE / TODO, SUBAGENTS, HOOKS, MCP CLIENT\nBUILD FIRST: CONTEXT COMPACTION\nDO NOT BUILD: MCP CLIENT, because its value is entirely contingent on the maturity and utility of external Model Context Protocol servers. For a solo developer, investing in a client for a potentially unproven or limited ecosystem introduces significant risk and maintenance burden without guaranteed return. Focus must be on internal robustness and core capability first.\nCONFIDENCE: HIGH",
+          "signature": "mm9+Y8zL7jhxcYMb2iUF3IUfu0b9/qAnqxLE2g4ztqZO2UCqmUV0v4Mrnhs5ryTyaakzHrjEXWBsiFCT4TX66w=="
+        },
+        {
+          "seat": "codeai-coder",
+          "provider": "Codex",
+          "prevHash": "Bpu47O81MzgdBy4aj3aA2ckAopMZnGNA111ORUcEcBk=",
+          "text": "RANK: MCP CLIENT, PLAN MODE / TODO, CONTEXT COMPACTION, SUBAGENTS, HOOKS\nBUILD FIRST: PLAN MODE / TODO\nDO NOT BUILD: HOOKS; high maintenance and security surface for a solo Windows app sold once [CITED: prompt].",
+          "signature": "nKUHiGKu4PaJSzkB9kql3Gq2l03A33y1D8CPSQaD2so4fL4hsRVYZP/ArCeg9gkjPCKlkm38/chS5oAlDZI3VA=="
+        }
+      ]
+    }
+  ],
+  "promptSummary": "Rank five listed agent-tooling capabilities by build priority for Deliberon, weighing solo-maintainer cost and a one-time-purchase Windows desktop model, and answer in a fixed format: RANK (all five), BUILD FIRST (one), DO NOT BUILD (one or more, with reasoning).",
+  "capabilityDefinitions": [
+    "SUBAGENTS - the Coder spawns child agents that work in parallel on separate sub-tasks and report back.",
+    "PLAN MODE / TODO - before editing, the agent writes a step list the user approves, and tracks completion visibly.",
+    "CONTEXT COMPACTION - when a session nears the model's context limit, older turns are summarized automatically so long work continues instead of failing.",
+    "HOOKS - user-authored scripts that fire on lifecycle events (before an edit, after a test run).",
+    "MCP CLIENT - Deliberon acting as a client of third-party Model Context Protocol servers, so its agents can call tools published by others. Deliberon is already an MCP server; this is the reverse direction."
+  ],
+  "publicCopyNote": "Public copy of a Deliberon council attestation. The only change from the original signed file is that the operator's prompt text is withheld here because its wording named specific competitors; a neutral summary is in promptSummary. The prompt is NOT part of the signed payload (see verificationNote), so every response signature and the prevHash chain verify identically against this copy. The original signed file is retained by the operator."
+}
